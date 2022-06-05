@@ -43,3 +43,18 @@ _Not much expierence_
 
 **My pet project:** [Mazda 2021](https://nikdovnar.github.io/Mazda.2021/)
 
+## Education
+
+* **Passed full-time It-academy courses in Minsk:** 
+	+ HTML, CSS, JavaScript Basics
+	+ Development of web applications with JavaScript.
+
+
+* **The Rolling Scopes stage 0** (In progress)
+
+
+## English language
+
+_I didn't check the language level. I can read and translate technical literature._
+
+_Slightly improved spoken English. Anyway learning continues._
