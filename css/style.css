@@ -1,0 +1,137 @@
+:root {
+	--bg: #f1f2f4;
+	--header-bg: #3d4955;
+	--header-info-bg: #52a8d9;
+	--header-text: #fcfffd;
+	--main-text: #6c6d6f;
+	--main-titels: #465059;
+	--hover: #a0daff;
+	--transition: 0.3s ease-out;
+	--content-width: 1238px;
+	--font: 'Poppins', sans-serif
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+	font-family: var(--font);
+	background-color: var(--bg);
+	font-size: 32px;
+}
+
+.box {
+	width: var(--content-width);
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	height: 400px;
+	background-color: var(--header-bg);
+	color: var(--header-text);
+	box-shadow: 0px 9px 28px 0px rgba(41, 81, 112, 0.52);
+}
+
+.logo {
+	display: flex;
+	justify-content: end;
+	height: 97px;
+}
+
+.logo img {
+	width: 140px;
+	margin-right: 30px;
+}
+
+.info {
+	height: 236px;
+	background: var(--header-info-bg);
+}
+
+.info-inner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.info-title {
+	width: 377px;
+	text-align: right;
+}
+
+.info-title p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.info-userpic img {
+	width: 212px;
+	margin-top: -66px;
+	border-radius: 100px;
+}
+
+.info-contacts {
+	width: 500px;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+.info-contacts li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+}
+
+.info-text {
+	font-weight: 300;
+}
+
+.info-contacts a {
+	width: 84px;
+	text-align: center;
+	color: var(--header-text);
+	background-color: var(--hover);
+	border-radius: 7px;
+	margin-top: 10px;
+}
+
+.info-contacts a:hover {
+	color: var(--header-info-bg);
+	transition: var(--transition);
+}
+
+.nav {
+	height: 68px;
+}
+
+.nav-inner {
+	height: 100%;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.nav-item {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link {
+	font-size: 20px;
+	color: var(--header-text);
+	text-transform: uppercase;
+	font-weight: 300;
+	transition: var(--transition);
+}
+
+.nav-link:hover {
+	color: var(--hover);
+	border-bottom: 1px solid var(--hover);
+}
