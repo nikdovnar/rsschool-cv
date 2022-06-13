@@ -201,3 +201,41 @@ body {
 .english {
 	border: none;
 }
+
+.footer {
+	height: 150px;
+	color: var(--header-text);
+	background-color: var(--header-bg);
+	box-shadow: 0px -8px 28px 11px rgba(41, 81, 112, 0.52);
+}
+
+.social {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-list {
+	display: flex;
+	justify-content: space-evenly;
+	width: 410px;
+}
+
+.fa {
+	transition: var(--transition);
+	color: var(--bg);
+}
+
+.fa:hover {
+	color: var(--hover);
+}
+
+.social-link {
+	height: 50px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 16px;
+}
