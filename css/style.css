@@ -135,3 +135,69 @@ body {
 	color: var(--hover);
 	border-bottom: 1px solid var(--hover);
 }
+
+.main {
+	background-color: var(--bg);
+	margin-top: 40px;
+}
+
+.summary,
+.skills,
+.code,
+.experience,
+.education,
+.english {
+	display: flex;
+	font-size: 16px;
+	color: var(--main-text);
+	border-bottom: 1px solid var(--main-text);
+}
+
+.left-block {
+	text-align: right;
+}
+
+.left-block {
+	width: 30%;
+	padding: 20px 33px 40px 20px;
+}
+
+.right-block {
+	width: 70%;
+	padding: 20px 50px 40px 20px;
+}
+
+
+.left-block__title {
+	font-size: 20px;
+	color: var(--main-titels);
+}
+
+.left-block__sub-title {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 13px;
+}
+
+.right-block__title {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.right-block a {
+	color: var(--header-info-bg);
+}
+
+.right-block a:hover {
+	color: var(--hover);
+	border-bottom: 1px solid var(--hover);
+	transition: var(--transition);
+}
+
+.right-block img {
+	margin: 10px 0;
+}
+
+.english {
+	border: none;
+}
